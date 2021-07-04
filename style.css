@@ -1,0 +1,25 @@
+body{
+    background-image:  linear-gradient(blue, purple);
+}
+.login_div1 , .login_div2
+	{
+		background: red;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+.input{
+    background-color: orange;
+}
+#title{
+    background-color: yellow;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;    
+}
+#yo{
+    background-image: linear-gradient(violet, indigo, blue, green, yellow, red);
+    border-radius: 15px;
+    color:white;
+}

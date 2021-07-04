@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+	<h4 id="player1_name"></h4> <span id="player1_score"></span>
+	<h4 id="player2_name"></h4> <span id="player2_score"></span>
+	
+
+<div class="container">
+	<center>
+		<div id="joe-mama" class="col-lg-4 col-xs-11 col-sm-8 col-md-8"><h2><b>Solve The Problem!</b></h2></div>
+		<h4 id="player_question"></h4>
+		<h4 id="player_answer"></h4>
+		<div id="output" class="col-lg-6"></div>
+
+		<br>
+		<br>
+
+        
+
+        <div class="col-lg-4 col-xs-11 col-sm-8 col-md-8 number_div">
+		<label><b>Number 1:</b></label>
+		<br>
+		<input placeholder="Type the first number here" id="no_1" class="form-control" type="text" style="background-color: orange;">
+        </div>
+		<br>
+
+        <div class="col-lg-4 col-xs-11 col-sm-8 col-md-8 number_div"><label><b>Number 2:</b></label>
+		<br>
+		<input placeholder="Type the second number here" id="no_2" class="form-control" type="text" style="background-color: orange;">
+        </div>
+		<br>
+
+        
+
+		<button  onclick="send()" class="btn-purple" style="width: 30%;">Send</button>
+
+	
+	</center>
+
+</div>
+
+<script src="game_page.js"></script>
+</body>
+</html>
